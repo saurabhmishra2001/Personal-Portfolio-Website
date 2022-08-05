@@ -21,7 +21,8 @@ function NavigationBar() {
                   <NavLink  className="nav-link mx-4 my-2"as={Link} to="/experience" >Experience</NavLink>
                 </li>
               </ul>
-            </Nav>
+            </Nav> 
+     
         
         </Navbar.Collapse>
   </Navbar>
