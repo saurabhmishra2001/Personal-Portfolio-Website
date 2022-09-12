@@ -7,6 +7,8 @@ function Projects() {
         <h2>Projects</h2>
         <h3>Projects</h3>
         <p>This page is related to the projects in this projects collection.</p>
+        <p>This page is related to the projects in this projects collection.</p>
+        <p>This page is related to the projects in this projects collection.</p>
       </h1>
     </div>
   )
