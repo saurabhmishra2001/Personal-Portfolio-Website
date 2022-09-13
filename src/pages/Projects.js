@@ -2,12 +2,13 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>Projects
-      <h1>This page is related to Project
-        <h2>Projects</h2>
-        <h3>Projects</h3>
-      
-      </h1>
+    <div>
+ <h2>
+   Porjects        
+ </h2>
+ <p>Lorem lipusum
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores placeat quae, earum recusandae eos voluptate a optio temporibus nisi incidunt facere officia, illo laudantium rerum quidem nobis magnam amet! Omnis?
+ </p>
     </div>
   )
 }
