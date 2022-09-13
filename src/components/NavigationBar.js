@@ -20,6 +20,9 @@ function NavigationBar() {
                 <li className="nav-item">
                   <NavLink  className="nav-link mx-4 my-2"as={Link} to="/experience" >Experience</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink  className="nav-link mx-4 my-2"as={Link} to="/Contact" >Contact us</NavLink>
+                </li>
               </ul>
             </Nav> 
      
