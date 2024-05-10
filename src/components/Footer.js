@@ -1,34 +1,60 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-
-import "../styles/Footer.css";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <div className="footer">
-      <div className="socialMedia">
-      <a href="/"
-        className="youtube social">
-        <InstagramIcon />
-      </a>
-        <a href="/"
-        className="youtube social">
-        <TwitterIcon />
-        </a>
-        <a href="/"
-        className="youtube social">
-        <FacebookIcon />
-        </a>
-        <a href="/"
-        className="youtube social">
-        <LinkedInIcon />
-        </a>
-      </div>
-      <p> &copy; 2022 Saurabh Kumar Mishra</p>
-    </div>
+    <Container fluid className="footer">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Designed and Developed by Saurabh Mishra</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} SM</h3>
+        </Col>
+        <Col md="4" className="footer-body">
+        <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/saurabhmishra2001"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+    
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-kumar-mishra-99352s/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/saurabhmishra4312/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
