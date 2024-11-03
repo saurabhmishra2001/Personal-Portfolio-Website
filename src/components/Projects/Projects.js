@@ -30,7 +30,7 @@ function Projects() {
             <ProjectCard
               imgPath={PlanArc}
               isBlog={false}
-              title="ScoreBuzz"
+              title="PlanArc"
               description="PlanArc is your all-in-one platform designed to streamline the planning and organization of learning, personal projects, and more. With a focus on structure and simplicity, PlanArc helps users map out their learning journeys, set clear goals, and track progress effectively. Whether you’re a student, a professional, or just looking to organize your day-to-day tasks, PlanArc empowers you to manage your time, prioritize tasks, and achieve your goals with ease. Start planning smarter and take control of your learning and productivity with PlanArc.  "
               ghLink="https://github.com/saurabhmishra2001/PlanArc"
               demoLink="https://plan-arc-three.vercel.app/"
